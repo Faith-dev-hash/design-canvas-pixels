@@ -7,7 +7,7 @@ const AboutSection = () => {
         <div className="self-stretch min-w-60 w-[676px] my-auto max-md:max-w-full">
           <div className="w-full max-md:max-w-full">
             <div className="flex w-full flex-col items-stretch justify-center max-md:max-w-full">
-              <div className="text-[#181818] text-center text-sm font-medium leading-[1.4]">
+              <div className="text-[#181818] text-left text-sm font-medium leading-[1.4]">
                 About Us
               </div>
               <div className="w-full text-4xl font-bold leading-none mt-6 max-md:max-w-full">

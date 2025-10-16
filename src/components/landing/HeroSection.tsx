@@ -7,7 +7,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="flex flex-col overflow-hidden relative z-0 min-h-[739px] w-full px-20 py-[227px] max-md:max-w-full max-md:px-5 max-md:py-[100px]">
+    <section className="flex flex-col overflow-hidden relative z-0 min-h-[739px] w-full px-20 pt-[227px] pb-0 max-md:max-w-full max-md:px-5 max-md:pt-[100px] max-md:pb-0">
       <img
         src="https://api.builder.io/api/v1/image/assets/1fe23c12aa114c02a439df9b05291582/51f871efe09395b3229980b7f61b2791a58903aa?placeholderIfAbsent=true"
         alt="Cloud technology background"

@@ -53,7 +53,7 @@ const SponsorsSection = () => {
   ];
 
   return (
-    <section className="justify-center items-center z-0 flex w-full flex-col overflow-hidden bg-white px-20 py-[60px] max-md:max-w-full max-md:px-5">
+    <section className="justify-center items-center z-0 flex w-full flex-col overflow-hidden bg-white px-20 pt-0 pb-[60px] max-md:max-w-full max-md:px-5 max-md:pt-0">
       <div className="flex w-[992px] max-w-full flex-col items-center justify-center">
         <div className="flex w-[619px] max-w-full items-center gap-[40px_100px] justify-between flex-wrap">
           {topLogos.map((logo, index) => (

@@ -26,7 +26,7 @@ const MetricsSection = () => {
           Memory in number
         </h2>
         
-        <div className="flex w-full items-center gap-[40px_100px] justify-between flex-wrap mt-10 max-md:max-w-full">
+        <div className="flex w-full items-center gap-[40px_100px] justify-center flex-nowrap mt-10 max-md:max-w-full max-md:flex-wrap max-md:justify-between">
           {metrics.map((metric, index) => (
             <article key={index} className="self-stretch flex min-w-60 flex-col items-stretch justify-center w-[342px] my-auto p-4">
               <div className="text-[#008000] text-5xl font-bold leading-[1.2] self-center max-md:text-[40px]">
