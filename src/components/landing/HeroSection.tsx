@@ -14,7 +14,7 @@ const HeroSection = () => {
         className="absolute h-full w-full object-cover inset-0"
       />
       
-      <div className="relative z-0 flex w-[630px] max-w-full flex-col items-stretch">
+      <div className="relative z-10 flex w-[630px] max-w-full flex-col items-stretch">
         <div className="w-full text-white">
           <h1 className="text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-[40px] max-md:leading-[54px]">
             Empowering Businesses with Innovative Cloud Solutions
@@ -36,7 +36,7 @@ const HeroSection = () => {
       <img
         src="https://api.builder.io/api/v1/image/assets/1fe23c12aa114c02a439df9b05291582/bea0d2baa510d7bbfcf0c021155da3ddfa3b03c5?placeholderIfAbsent=true"
         alt="Decorative wave pattern"
-        className="aspect-[7.35] object-contain w-[1440px] absolute z-0 -translate-x-2/4 translate-y-[0%] h-[382px] left-2/4 bottom-0 max-md:max-w-full"
+        className="aspect-[7.35] object-contain w-full absolute z-0 left-0 bottom-0 max-md:max-w-full"
       />
     </section>
   );
