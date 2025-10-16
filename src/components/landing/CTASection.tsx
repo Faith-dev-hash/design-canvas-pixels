@@ -13,7 +13,7 @@ const CTASection = () => {
           <h2 className="text-white text-4xl font-bold leading-none max-md:max-w-full">
             The cloud service you actually need
           </h2>
-          <p className="text-[#C9C7C7] text-xl font-medium leading-[30px] self-center w-[878px] mt-4 max-md:max-w-full md:text-center md:mx-auto">
+          <p className="text-[#C9C7C7] text-xl font-medium leading-[30px] self-center w-[878px] mt-4 max-md:max-w-full text-center mx-auto">
             At Vontech Group, we offer a range of specialized cloud and
             technology services designed to drive innovation, enhance
             efficiency, and help businesses of all sizes achieve their goals.

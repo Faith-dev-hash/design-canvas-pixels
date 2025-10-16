@@ -50,21 +50,21 @@ const TestimonialsSection = () => {
         </h2>
         
         <div className="flex w-full flex-col items-stretch mt-10 max-md:max-w-full">
-          <div className="flex w-full items-center gap-5 justify-center flex-nowrap md:overflow-x-auto max-md:max-w-full max-md:flex-wrap">
+          <div className="flex w-full items-center gap-5 justify-start md:overflow-x-auto flex-nowrap max-md:max-w-full max-md:flex-wrap">
             {testimonials.map((testimonial, index) => (
-              <article key={index} className="border self-stretch min-w-60 overflow-hidden w-[402px] md:flex-shrink-0 my-auto px-[22px] py-8 rounded-[20px] border-solid border-[#E0E0E0] hover:shadow-lg transition-shadow max-md:px-5">
+              <article key={index} className="border self-stretch min-w-60 overflow-hidden w-[402px] flex-shrink-0 my-auto px-[22px] py-8 rounded-[20px] border-solid border-[#E0E0E0] hover:shadow-lg transition-shadow max-md:px-5">
                 <blockquote className="text-[#097484] text-base font-normal leading-6">
                   {testimonial.text}
                 </blockquote>
                 
-                <div className="flex w-full items-center gap-4 mt-10">
-                  <div className="self-stretch flex items-center gap-4 flex-1 shrink basis-[0%] my-auto">
+                <div className="flex w-full items-start gap-4 mt-10 flex-wrap">
+                  <div className="flex items-center gap-4 flex-1 min-w-[200px]">
                     <img
                       src={testimonial.avatar}
                       alt={`${testimonial.name} profile`}
-                      className="aspect-[1] object-contain w-[60px] self-stretch shrink-0 my-auto rounded-[100px]"
+                      className="aspect-[1] object-contain w-[60px] flex-shrink-0 rounded-[100px]"
                     />
-                    <div className="self-stretch flex flex-col items-stretch justify-center flex-1 shrink basis-[0%] my-auto">
+                    <div className="flex flex-col items-stretch justify-center flex-1">
                       <div className="text-[#097484] text-xl font-medium">
                         {testimonial.name}
                       </div>
@@ -73,7 +73,7 @@ const TestimonialsSection = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="md:flex-shrink-0">
+                  <div className="flex-shrink-0">
                     <StarRating />
                   </div>
                 </div>
