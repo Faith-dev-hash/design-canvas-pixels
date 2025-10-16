@@ -26,18 +26,18 @@ const MetricsSection = () => {
           Memory in number
         </h2>
         
-        <div className="flex w-full items-center gap-[40px_100px] justify-center flex-nowrap mt-10 max-md:max-w-full max-md:flex-wrap max-md:justify-between">
+        <div className="flex w-full items-center gap-[40px_100px] md:gap-8 justify-center flex-nowrap mt-10 max-md:max-w-full max-md:flex-wrap max-md:justify-between">
           {metrics.map((metric, index) => (
-            <article key={index} className="self-stretch flex min-w-60 flex-col items-stretch justify-center w-[342px] my-auto p-4">
-              <div className="text-[#008000] text-5xl font-bold leading-[1.2] self-center max-md:text-[40px]">
+            <article key={index} className="self-stretch flex min-w-60 flex-col items-stretch justify-center w-[342px] md:w-[280px] md:flex-1 my-auto p-4">
+              <div className="text-[#008000] text-5xl md:text-4xl font-bold leading-[1.2] self-center max-md:text-[40px]">
                 {metric.value}
               </div>
               
               <div className="flex w-full flex-col items-stretch justify-center mt-5">
-                <h3 className="text-[#181818] text-2xl font-semibold leading-[1.3]">
+                <h3 className="text-[#181818] text-2xl md:text-xl font-semibold leading-[1.3]">
                   {metric.title}
                 </h3>
-                <p className="text-[#393C3D] text-lg font-normal leading-[27px] mt-4">
+                <p className="text-[#393C3D] text-lg md:text-base font-normal leading-[27px] md:leading-6 mt-4">
                   {metric.description}
                 </p>
               </div>

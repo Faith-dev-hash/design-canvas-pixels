@@ -3,7 +3,7 @@ import React from 'react';
 const AboutSection = () => {
   return (
     <section className="justify-center items-stretch z-0 flex w-full flex-col overflow-hidden bg-[#FBFBFB] px-20 py-[60px] max-md:max-w-full max-md:px-5">
-      <div className="flex w-full items-center gap-[40px_60px] justify-center flex-wrap max-md:max-w-full">
+      <div className="flex w-full items-center gap-[40px_60px] justify-center flex-wrap md:flex-row-reverse max-md:max-w-full">
         <div className="self-stretch min-w-60 w-[676px] my-auto max-md:max-w-full">
           <div className="w-full max-md:max-w-full">
             <div className="flex w-full flex-col items-stretch justify-center max-md:max-w-full">

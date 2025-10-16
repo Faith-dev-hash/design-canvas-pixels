@@ -128,15 +128,15 @@ const WhyChooseSection = () => {
         </div>
       </div>
       
-      <div className="items-center absolute z-0 flex gap-3 text-xl text-[#181818] font-medium flex-nowrap bg-white right-0 bottom-0 max-md:max-w-full max-md:flex-wrap">
-        <div className="items-center rounded self-stretch flex min-w-60 gap-2.5 overflow-hidden text-white w-[472px] bg-[#097484] my-auto px-4 py-2 max-md:max-w-full">
+      <div className="items-center absolute z-0 flex gap-3 text-xl text-[#181818] font-medium flex-nowrap md:overflow-x-auto bg-white right-0 bottom-0 max-md:max-w-full max-md:flex-wrap">
+        <div className="items-center rounded self-stretch flex min-w-60 gap-2.5 overflow-hidden text-white w-[472px] md:min-w-[300px] md:flex-shrink-0 bg-[#097484] my-auto px-4 py-2 max-md:max-w-full">
           <div className="text-white self-stretch flex-1 shrink basis-[0%] my-auto max-md:max-w-full">
             {features[0]}
           </div>
         </div>
         
         {features.slice(1).map((feature, index) => (
-          <div key={index} className="items-center rounded border bg-[rgba(9,116,132,0.04)] self-stretch flex min-w-60 gap-2.5 overflow-hidden w-[472px] my-auto px-4 py-2 border-solid border-[#097484] max-md:max-w-full">
+          <div key={index} className="items-center rounded border bg-[rgba(9,116,132,0.04)] self-stretch flex min-w-60 gap-2.5 overflow-hidden w-[472px] md:min-w-[300px] md:flex-shrink-0 my-auto px-4 py-2 border-solid border-[#097484] max-md:max-w-full">
             <div className="text-[#181818] self-stretch flex-1 shrink basis-[0%] my-auto max-md:max-w-full">
               {feature}
             </div>
