@@ -12,16 +12,16 @@ const Header = () => {
         className="aspect-[4.55] object-contain w-[100px] self-stretch shrink-0 my-auto"
       />
       
-      {/* Mobile hamburger menu */}
+      {/* Mobile and tablet hamburger menu */}
       <button 
-        className="md:hidden text-white"
+        className="lg:hidden text-white"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         {isMenuOpen ? <X size={32} /> : <Menu size={32} />}
       </button>
 
-      {/* Desktop navigation - visible on tablet and up */}
-      <nav className="self-stretch hidden md:flex min-w-60 items-center gap-4 lg:gap-9 my-auto max-md:max-w-full">
+      {/* Desktop navigation - visible on large screens and up */}
+      <nav className="self-stretch hidden lg:flex min-w-60 items-center gap-9 my-auto max-md:max-w-full">
         <a href="#home" className="text-white text-xl font-medium self-stretch my-auto hover:text-[#FFE21B] transition-colors">
           Home
         </a>
@@ -51,13 +51,13 @@ const Header = () => {
         </a>
       </nav>
       
-      <button className="hidden md:flex justify-center items-center self-stretch gap-2 text-xl text-[#181818] font-semibold whitespace-nowrap bg-[#FFE21B] my-auto px-4 md:px-6 lg:px-8 py-3 rounded-[20px] hover:bg-[#FFD700] transition-colors">
+      <button className="hidden lg:flex justify-center items-center self-stretch gap-2 text-xl text-[#181818] font-semibold whitespace-nowrap bg-[#FFE21B] my-auto px-8 py-3 rounded-[20px] hover:bg-[#FFD700] transition-colors">
         Login
       </button>
 
-      {/* Mobile menu dropdown */}
+      {/* Mobile and tablet menu dropdown */}
       {isMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 mt-2 bg-[rgba(255,255,255,0.95)] rounded-[20px] p-6 flex flex-col gap-4">
+        <div className="lg:hidden absolute top-full left-0 right-0 mt-2 bg-[rgba(255,255,255,0.95)] rounded-[20px] p-6 flex flex-col gap-4">
           <a href="#home" className="text-[#181818] text-xl font-medium hover:text-[#097484] transition-colors" onClick={() => setIsMenuOpen(false)}>
             Home
           </a>
