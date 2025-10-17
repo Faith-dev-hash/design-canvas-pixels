@@ -128,7 +128,7 @@ const WhyChooseSection = () => {
         </div>
       </div>
       
-      <div className="items-center absolute z-0 flex gap-3 text-xl text-[#181818] font-medium flex-nowrap bg-white right-0 bottom-0 max-md:max-w-full max-md:flex-wrap md:flex-col md:w-full md:relative md:mt-10">
+      <div className="items-center absolute z-0 flex gap-3 text-xl text-[#181818] font-medium flex-nowrap bg-white right-0 bottom-0 max-md:max-w-full max-md:flex-wrap">
         <div className="items-center rounded self-stretch flex min-w-60 gap-2.5 overflow-hidden text-white w-[472px] bg-[#097484] my-auto px-4 py-2 max-md:max-w-full md:w-full">
           <div className="text-white self-stretch flex-1 shrink basis-[0%] my-auto max-md:max-w-full">
             {features[0]}
